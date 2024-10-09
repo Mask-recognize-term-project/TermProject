@@ -61,3 +61,9 @@ python detect_mask.py --prototxt path_to_deploy.prototxt --model path_to_model -
 ```
 ## Conclusion
 This mask detection software leverages deep learning techniques to identify whether individuals are wearing masks properly. It can be used in various public settings to encourage proper mask usage and mitigate the spread of COVID-19.
+
+## Demo
+
+[Demo](https://github.com/user-attachments/assets/4d6a3dd8-12b2-42ea-a33a-335a843b9c32)
+
+
