@@ -27,6 +27,7 @@ The dataset used for training comes from [MaskedFace-Net](https://github.com/cab
 
 ## Image Preprocessing and Data Classification
 We classified the images into the following categories:
+![Dataset](https://raw.githubusercontent.com/Mask-recognize-term-project/TermProject/d4288ee5dddb3a6ee6fa8e6eb39978e8d5b159bc//mask_image.jpg)
 1. Mask properly worn (`N_Mask`)
 2. Mask covering mouth and chin (`N_Mask_Mouth_Chin`)
 3. Mask on chin only (`N_Mask_Chin`)
