@@ -13,6 +13,7 @@ The core goal is to assist in curbing the spread of COVID-19 by encouraging prop
 ## Methods for Implementation
 ### Initial Approach: Using dlib
 Initially, we attempted to use the `dlib` library for facial landmark detection, as it can recognize key points like the eyes, nose, mouth, and jawline. Our hypothesis was that if a person is wearing a mask, certain landmarks (like the nose and mouth) would not be detected. However, we discovered that when part of the face is obscured, `dlib` fails to detect any landmarks, making this approach unsuitable.
+![Facial_Landmark](https://github.com/user-attachments/assets/e06add24-cd8e-46d2-8400-b591a22a87dd)
 ![Facial_Landmark_mask](https://github.com/user-attachments/assets/68ed3a27-f87d-4b39-930e-62dd080a4b30)
 
 ### Final Approach: Using TensorFlow and Keras
